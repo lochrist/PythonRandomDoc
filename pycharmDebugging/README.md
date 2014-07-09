@@ -1,4 +1,4 @@
-Remote debugging with PyCharm
+Maya Remote debugging with PyCharm
 ===============
 
 
@@ -10,4 +10,5 @@ The following will illustrate how to setup the Python IDE PyCharm to debug Shotg
 4.  PyCharm, open the Python project you are trying to debug. Put a break point somewhere. Press the debug python. This will start the Debugging server. ![](https://raw.githubusercontent.com/lochrist/PythonRandomDoc/master/images/StartRemoteDebugger.png).
 5.  Ensure your maya python path contains the path to PyCharm pydev libraries (C:\Program Files (x86)\JetBrains\PyCharm 3.4.1\helpers). Easy way to do this is to add a userSetup.py scripts in your maya config folder (C:\Users\phaneus\Documents\maya\2015-x64\scripts): ![](https://raw.githubusercontent.com/lochrist/PythonRandomDoc/master/images/MayaPyDevSetup.png).
 6.  Start Maya and connect PyDev to the Remote debugger you have established in PyCharm. In order to do so, you can run a particular Python command. I wrapped this command in a Shelve so it is easier to call it. ![](https://raw.githubusercontent.com/lochrist/PythonRandomDoc/master/images/MayaConnectDebugger.png)
-7. Start the script you want to debug (the script opened at step 4.). And hope that your breakpoint will be hit.   ![](https://raw.githubusercontent.com/lochrist/PythonRandomDoc/master/images/MayaStartScript.png).
+7. Start the script you want to debug (the script opened at step 4.). ![](https://raw.githubusercontent.com/lochrist/PythonRandomDoc/master/images/MayaStartScript.png).
+8. And hope that your breakpoint will be hit!  ![](https://raw.githubusercontent.com/lochrist/PythonRandomDoc/master/images/PyCharmBreakpoint.png)
